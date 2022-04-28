@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="firstweb.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">BLOG</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University </h1>
+            <p>Making website is now one of the easiest thingn in World.You just need to learn HTML,css,
+               <br/> javascript and you are good to go.
+
+            </p>
+            <a href="" class="hero-btn">visit us to known more</a>
+
+
+        </div>
+        
+
+    </section>
+    <!---course-->
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>it should help you to learn fast</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Degree</h3>
+                <P>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Obcaecati iure vero ut magni iste dolore dolorum, commodi molestias quidem eveniet?
+                     Praesentium a facilis, error nihil repellendus cupiditate blanditiis ea doloribus!
+                </P>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <P>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Obcaecati iure vero ut magni iste dolore dolorum, commodi molestias quidem eveniet?
+                     Praesentium a facilis, error nihil repellendus cupiditate blanditiis ea doloribus!
+                </P>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---campus----->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+        
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                    
+                </div>
+
+            </div>
+         
+
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                    
+                </div>
+
+            </div>
+         
+
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                    
+                </div>
+
+            </div>
+         
+
+        </div>
+        
+
+    </section>
+
+    <!-----facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+            </div>
+        
+        
+
+        </div>
+
+    </section>
+
+    <!-----------testimonials-->
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, cosecture adipicing elite.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quae cupiditate ducimus doloremque cum totam provident expedita dolores! Doloremque quos cumque soluta nostrum impedit,
+                        quam atque aliquid accusantium nemo quidem aut.
+                    </p>
+                    <h3>Christione Berkley</h3>
+                        
+                         
+                </div>
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quae cupiditate ducimus doloremque cum totam provident expedita dolores! Doloremque quos cumque soluta nostrum impedit,
+                        quam atque aliquid accusantium nemo quidem aut.
+                    </p>
+                    <h3>david Byer</h3>
+                        
+                         
+                </div>
+            </div>
+
+        </div>
+       
+        </div>
+  
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!--------javascript for toggle menu---------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
